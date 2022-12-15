@@ -11,12 +11,12 @@ config_version=4
 [application]
 
 config/name="camera_transition"
-run/main_scene="res://scenes/main.tscn"
+run/main_scene="res://demo/scenes/main.tscn"
 config/icon="res://icon.png"
 
 [autoload]
 
-CameraTransition="*res://autoload/camera_transition.tscn"
+CameraTransition="*res://addon/camera_transitition/camera_transition.tscn"
 
 [display]
 
@@ -39,4 +39,4 @@ common/enable_pause_aware_picking=true
 
 quality/filters/anisotropic_filter_level=8
 quality/filters/msaa=3
-environment/default_environment="res://default_env.tres"
+environment/default_environment="res://demo/default_env.tres"

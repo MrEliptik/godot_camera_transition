@@ -1,8 +1,8 @@
 [gd_scene load_steps=4 format=2]
 
-[ext_resource path="res://scripts/main.gd" type="Script" id=1]
-[ext_resource path="res://scenes/hud.tscn" type="PackedScene" id=2]
-[ext_resource path="res://scenes/2D_example.tscn" type="PackedScene" id=3]
+[ext_resource path="res://demo/scripts/main.gd" type="Script" id=1]
+[ext_resource path="res://demo/scenes/hud.tscn" type="PackedScene" id=2]
+[ext_resource path="res://demo/scenes/2D_example.tscn" type="PackedScene" id=3]
 
 [node name="Main" type="Node"]
 script = ExtResource( 1 )

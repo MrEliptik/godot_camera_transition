@@ -1,6 +1,6 @@
 [gd_scene load_steps=11 format=2]
 
-[ext_resource path="res://scripts/3D_example.gd" type="Script" id=1]
+[ext_resource path="res://demo/scripts/3D_example.gd" type="Script" id=1]
 
 [sub_resource type="CubeMesh" id=1]
 

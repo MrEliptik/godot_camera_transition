@@ -1,7 +1,7 @@
 extends Node
 
-export var example_2D: PackedScene = preload("res://scenes/2D_example.tscn")
-export var example_3D: PackedScene = preload("res://scenes/3D_example.tscn")
+export var example_2D: PackedScene = preload("res://demo/scenes/2D_example.tscn")
+export var example_3D: PackedScene = preload("res://demo/scenes/3D_example.tscn")
 
 func _ready() -> void:
 	pass

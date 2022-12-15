@@ -1,6 +1,6 @@
 [gd_scene load_steps=6 format=2]
 
-[ext_resource path="res://scripts/2D_example.gd" type="Script" id=1]
+[ext_resource path="res://demo/scripts/2D_example.gd" type="Script" id=1]
 [ext_resource path="res://icon.png" type="Texture" id=2]
 
 [sub_resource type="OpenSimplexNoise" id=2]
@@ -29,26 +29,30 @@ texture = SubResource( 3 )
 polygon = PoolVector2Array( -910, -424, 3223, -434, 3156, 1822, -910, 1793 )
 
 [node name="Icon" type="Sprite" parent="."]
-position = Vector2( 314, 224 )
+position = Vector2( 238, 202 )
+scale = Vector2( 0.77551, 0.77551 )
 texture = ExtResource( 2 )
 
 [node name="Icon3" type="Sprite" parent="."]
 modulate = Color( 0.941176, 0, 0, 1 )
-position = Vector2( 478, 224 )
+position = Vector2( 490, 234 )
+scale = Vector2( 0.877551, 0.877551 )
 texture = ExtResource( 2 )
 
 [node name="Icon2" type="Sprite" parent="."]
-position = Vector2( 1651, 813 )
+position = Vector2( 1630, 749 )
 texture = ExtResource( 2 )
 
 [node name="Icon5" type="Sprite" parent="."]
 modulate = Color( 0.909804, 0, 1, 1 )
-position = Vector2( 1516, 813 )
+position = Vector2( 1419, 877 )
+scale = Vector2( 0.688776, 0.688776 )
 texture = ExtResource( 2 )
 
 [node name="Icon4" type="Sprite" parent="."]
 modulate = Color( 0.278431, 1, 0.141176, 1 )
-position = Vector2( 1769, 813 )
+position = Vector2( 1812, 929 )
+scale = Vector2( 0.653061, 0.653061 )
 texture = ExtResource( 2 )
 
 [node name="Camera2D1" type="Camera2D" parent="."]
